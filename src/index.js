@@ -27,6 +27,9 @@ const mahasiswi = {
 
 const element = <h1>Halo, {getMahasiswa(mahasiswi)} , anda adalah {getStatus(mahasiswi)}</h1>
 */
+
+
+
 // function tick(){
 //     const element = (
 //         <div>
@@ -67,9 +70,10 @@ const element = <h1>Halo, {getMahasiswa(mahasiswi)} , anda adalah {getStatus(mah
 
 // ReactDOM.render(element, document.getElementById('root'));
 
-const element = <Product judul="koleksi barbie menggunakan class component dalam file sendiri"
-harga="100.000 menggunakan class component"/>
-
+//const element = <Product judul="koleksi barbie menggunakan class component dalam file sendiri"
+//harga="100.000 menggunakan class component"/>
+//const element = <Banner/>;
+const element = <App/>;
 ReactDOM.render(element, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
